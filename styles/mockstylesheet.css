@@ -46,6 +46,10 @@ h2 {
 .topnav :active {
   color: #25b4d2;
 }
+.topnav a:hover {
+  background-color: #000;
+}
+
 @media screen and (max-width: 500px) {
   .navbar a {
     float: none;

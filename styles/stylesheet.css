@@ -129,8 +129,28 @@ table, th, td {
 p {
     font-family: Roboto, sans-serif;
 }
+p::first-letter {
+  font-size: 150%;
+  color: #4a4e51;
+  font-weight: bolder;
+}
 ul, li {
   font-family: Roboto, sans-serif;
+}
+aside ul li:nth-child(2n)  {
+  color: #25b4d2;
+}
+/* Section hyperlinks */
+section a {
+  text-decoration: none;
+  color: #4a4e51;
+  font-weight: bold;
+}
+section a:visited {
+  color: #25b4d2;
+}
+section a:hover {
+  text-decoration: underline;
 }
 /* Navigation Bar */
 .navbar {
@@ -160,7 +180,9 @@ ul, li {
 .active {
   background-color: #25b4d2;
 }
-
+.navbar i:hover {
+  font-size: 150%;
+}
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 @media screen and (max-width: 500px) {
   .navbar a {
