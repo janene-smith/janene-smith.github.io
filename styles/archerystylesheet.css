@@ -1,5 +1,39 @@
+/* CSS archerystylesheet.css for archery-index.html and archery-about.html */
 * {
     box-sizing: border-box;
+}
+body {
+  font: Arial normal, sans-serif;
+  font-size: 17px;
+}
+/* TYPOGRAPHY */
+h1  {
+  font: Arial bold, sans-serif;
+  font-size: 40px;
+}
+h2  {
+  font: Arial bold, sans-serif;
+  font-size: 24px;
+}
+h3  {
+  font: Arial bold, sans-serif;
+  font-size: 17px;
+}
+/* CALL-OUTS & QUOTES */
+.quotes {
+  font: Arial normal, sans-serif;
+  font-size: 30px;
+  color: #03a3df;
+}
+.call-out {
+  font: Arial bold, sans-serif;
+  font-size: 14px;
+  font-variant-caps: titling-caps;
+  color: #03a3df;
+}
+.footer-image {
+  width: 1628px;
+  padding: 0;
 }
 /* CSS Grid Layout */
 .grid-container {
