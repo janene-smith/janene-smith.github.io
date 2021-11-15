@@ -1,7 +1,43 @@
 * {
     box-sizing: border-box;
 }
+/* CSS Grid Layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
 
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid_logo {
+  grid-area: 1 / 1 / span 2 / span 2;
+}
+.grid-header {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: .5;
+  grid-row-end: .5;
+}
+.grid-services {
+  grid-area: 2 / 1 / span 2 / span 3;
+}
+.grid-register {
+  grid-column-start: 4;
+}
+.grid-aside {
+  grid-column-start: 4;
+}
+.grid-image1 {
+  width: .33%;
+}
 .col {
     float: left;
     padding: 5px;
