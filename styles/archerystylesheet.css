@@ -50,11 +50,11 @@ body {
   'myA4 myA4 myA4 my4 myA5 myA5 myA5 myA5 myA6 myA6 myA6 myA6'
   'myA7 myA7 myA7 myA7 myA8 myA8 myA8 myA8 myA8 myA8 myA8 myA8';
   grid-gap: 10px;
-  background-color: #2196F3;
+  /* background-color: #2196F3;*/
   padding: 10px;
 }
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  /* background-color: rgba(255, 255, 255, 0.8);*/
   text-align: center;
   pading: 20px 0;
   font-size: 30px;
