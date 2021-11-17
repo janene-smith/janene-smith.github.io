@@ -102,6 +102,11 @@ h3  {
   font: Arial bold, sans-serif;
   font-size: 17px;
 }
+p {
+  text-align: left;
+  font-size: 17px;
+  font-family: Arial sans-serif;
+}
 /* CALL-OUTS & QUOTES */
 .quotes {
   font: Arial normal, sans-serif;
