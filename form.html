@@ -3,8 +3,136 @@
   <head>
     <meta charset="utf-8">
     <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="styles/formstylesheet.css">
   </head>
   <body>
+    <div class="grid-container">
+      <div class="item0">
+        <img src="images/archeryAcademy-logo-color.png" alt="Archery Academy logo in blue." width="137px" height="57px">
+      </div>
+      <div class="item1">
+        <div class="navbar">
+              <nav>
+                <a href="archery-index.html">Home</a>
+                <a href="archery-about.html">About</a>
+                <a class="active" href="form.html">Lessons</a>
+                <a href="index.html">Portfolio</a>
+              </nav>
+        </div>
+      </div>
+    <h1>Registration Form</h1>
+    <form method="GET">
+      <label>First name:
+      <input type="text" name="applicantFirstName">
+      </label>
+      <label>Last name:
+      <input type="text" name="applicantLastName">
+      </label>
+      <label>Last name:
+      <input type="text" name="applicantLastName">
+      </label>
+      <label>Street address:
+      <input type="address" name="applicantAddress">
+      </label>
+      <label>City:
+      <input type="city" name="applicantCity">
+      </label>
+      <label>State:
+      <input type="state" name="applicantState">
+      </label>
+      <label>Zip:
+      <input type="zip" name="applicantZipcode">
+      </label>
 
+      <label>Contact number:
+      <input type="cellphone" name="applicantPhone">
+      </label>
+
+      <label>Tell us about your experience with archery?
+      <textarea name="applicantReason" rows="4" cols="50"></textarea>
+      </label>
+
+    <fieldset>
+      <legend>Is the age of the archer 7 years or older?</legend>
+
+        <label>
+          <input type="radio" name="ageRequirement" value="yes">
+          Yes
+        </label>
+
+        <label>
+          <input type="radio" name="ageRequirement" value="no">
+          No
+        </label>
+      <legend></legend>
+    </fieldset>
+
+    <fieldset>
+      <legend>Lesson Options</legend>
+         <select  name="lessons" size="6" multiple>
+        <option value="A101">A101 Basic Archery class</option>
+        <option value="A102">A102 Intermediate Archery class</option>
+        <option value="A103">A103 Advanced Archery class</option>
+        <option value="OneLesson">Single Private Lesson</option>
+        <option value="3Lessons">3 Private Lesson Package </option>
+        <option value="10Lessons">10 Private Lesson Package</option>
+      </select>
+    </fieldset>
+
+    <details>
+      <summary>Nondiscriminatory Policy</summary>
+      <p>Next Step Archery admits students of any race, gender presentation, sexuality, religion, national origin or ethnic origin to all rights, privileges, programs and activities available to students at the school. We do not discriminate in administration of our educational policies, admission policies and other school administered programs. All students are welcome and valuable members of our community.</p>
+    </details>
+
+    <fieldset class="checkbox">Tell us what interests you? We will be in touch.
+
+      <label>
+      <input type="checkbox" name="interests" value="classes">Group lessons
+      <span class="checkmark"></span>
+      </label>
+      <label>
+      <input type="checkbox" name="interests" value="private">Private lessons
+      <span class="checkmark"></span>
+      </label>
+      <label>
+      <input type="checkbox" name="interests" value="equipment">Equipment
+      <span class="checkmark"></span>
+      </label>
+      <label>
+      <input type="checkbox" name="interests" value="newsletter">Newsletter
+      <span class="checkmark"></span>
+      </label>
+      <label>
+      <input type="checkbox" name="interests" value="event">Event planning
+      <span class="checkmark"></span>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Create an Archery Academy account:</legend>
+      <label>Email address:
+      <input type="email" name="applicantEmail">
+      </label>
+      <label>Enter password:
+        <input type="password" name="accountPW">
+      </label>
+    </fieldset>
+
+
+    <input type="submit" value="Enroll Here">
+
+    <footer class="container">
+      <img src="images/footerimage.jpg" width="100%" height="250px" alt="Image of arrows">
+
+      <address class="bottom-left">
+        <img src="images/archeryAcademy-logo-white.png" alt="Archery Academy logo in white." width="137px" height="57px"><br>
+        Straight to the Point Archery<br>
+        528 Nock Point Ln<br>
+        Tacoma, WA 98412<br>
+        archery-education@example.com<br>
+        (253)555-1010<br>
+      </address>
+
+    </footer>
   </body>
 </html>
