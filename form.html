@@ -35,10 +35,15 @@
       <input type="address" name="applicantAddress">
       </label>
       <label>City:
-      <input type="city" name="applicantCity">
+      <input type="city" name="applicantCity" placeholder="Seattle">
       </label>
       <label>State:
-      <input type="state" name="applicantState">
+        <select name="state">
+          <<option value="">Please select</option>
+          <option value="wa">Washington</option>
+          <option value="or">Oregon</option>
+          <option value="id">Idaho</option>
+        </select>
       </label>
       <label>Zip:
       <input type="zip" name="applicantZipcode">
@@ -48,13 +53,12 @@
       <input type="cellphone" name="applicantPhone">
       </label>
 
-      <label>Tell us about your experience with archery?
+      <label>Tell us about your experience with archery:
       <textarea name="applicantReason" rows="4" cols="50"></textarea>
       </label>
 
     <fieldset>
-      <legend>Is the age of the archer 7 years or older?</legend>
-
+      <legend>Is the age of the archer 7 years or older:</legend>
         <label>
           <input type="radio" name="ageRequirement" value="yes">
           Yes
@@ -64,12 +68,11 @@
           <input type="radio" name="ageRequirement" value="no">
           No
         </label>
-      <legend></legend>
     </fieldset>
 
     <fieldset>
-      <legend>Lesson Options</legend>
-         <select  name="lessons" size="6" multiple>
+      <legend>Lesson Options:</legend>
+        <select  name="lessons" size="3" multiple>
         <option value="A101">A101 Basic Archery class</option>
         <option value="A102">A102 Intermediate Archery class</option>
         <option value="A103">A103 Advanced Archery class</option>
@@ -77,15 +80,13 @@
         <option value="3Lessons">3 Private Lesson Package </option>
         <option value="10Lessons">10 Private Lesson Package</option>
       </select>
+      <details>
+        <summary>Nondiscriminatory Policy</summary>
+        <p>Next Step Archery admits students of any race, gender presentation, sexuality, religion, national origin or ethnic origin to all rights, privileges, programs and activities available to students at the school. We do not discriminate in administration of our educational policies, admission policies and other school administered programs. All students are welcome and valuable members of our community.</p>
+      </details>
     </fieldset>
 
-    <details>
-      <summary>Nondiscriminatory Policy</summary>
-      <p>Next Step Archery admits students of any race, gender presentation, sexuality, religion, national origin or ethnic origin to all rights, privileges, programs and activities available to students at the school. We do not discriminate in administration of our educational policies, admission policies and other school administered programs. All students are welcome and valuable members of our community.</p>
-    </details>
-
     <fieldset class="checkbox">Tell us what interests you? We will be in touch.
-
       <label>
       <input type="checkbox" name="interests" value="classes">Group lessons
       <span class="checkmark"></span>
@@ -117,7 +118,6 @@
         <input type="password" name="accountPW">
       </label>
     </fieldset>
-
 
     <input type="submit" value="Enroll Here">
 

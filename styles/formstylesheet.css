@@ -5,25 +5,34 @@ button, input, select, textarea {
   display: block;
   margin: 1rem;
 }
+h1  {
+  font: Arial bold, sans-serif;
+  font-size: 40px;
+  color: #1b447f;
+}
 /*consistent sizing - use box-sizing */
 input[type=submit] {
-  width: 100%;
-  background-color: #ecb722;
+  width: 20%;
+  background-color: #1b447f;
+  color: #ffffff;
 }
 
 input[type=password]:focus {
-  background-color: seagreen;
+  background-color: #03a3df;
   outline: none; /*most browsers default to blue line*/
 }
 
 input {
-  border-radius: 15px;
+  border-radius: solid 15px;
 }
 fieldset {
-  border: none;
+  border: 1px;
 }
 fieldset input {
   display: inline;
+}
+legend {
+  font-weight: bold;
 }
 
 /* Hide the browser's default checkbox */
@@ -60,12 +69,12 @@ fieldset input {
 
 /* On mouse-over, add a grey background color */
 .checkbox label:hover input ~ .checkmark {
-  background-color: #ccc;
+  background-color: #1b447f;
 }
 
 /* When the checkbox is checked, add a background */
 .checkbox input:checked ~ .checkmark {
-  background-color: #2196F3;
+  background-color: #ecb722;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -119,20 +128,18 @@ font-size: 17px;
 background-color: #ecb722;
 color: #1b447f;
 }
-
 /* Current/active navbar link */
 .active {
 background-color: #03a3df;
 }
 
-
+/* footer */
 .container {
   position: relative;
   text-align: center;
   color: #ffffff;
   font: Arial bold, sans-serif;
   font-size: 17px;
-
 }
 /* Bottom left text */
 .bottom-left {
@@ -140,11 +147,22 @@ background-color: #03a3df;
   bottom: 8px;
   left: 16px;
   bottom: 25%;
-
 }
-.call-out {
-  font: Arial bold, sans-serif;
-  font-size: 14px;
-  font-variant-caps: titling-caps;
-  color: #03a3df;
+details > summary {
+  padding: 4px;
+  width: 200px;
+  margin: 0;
+  background-color: #eeefff;
+  border: none;
+  box-shadow: 1px 1px 4px #bbbbbb;
+  cursor:pointer;
+  font-family: Roboto, sans-serif;
+}
+details > p {
+  background-color: #ecb722;
+  color: #1b447f;
+  padding: 4px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-family: Roboto, sans-serif;
 }

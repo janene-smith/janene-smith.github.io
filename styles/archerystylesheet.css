@@ -8,7 +8,6 @@ body {
 }
 .item0 {
   grid-area: myL;
-  background-color: #03a3df;
   float: left;
   align: left;
 }
@@ -59,34 +58,7 @@ body {
   pading: 20px 0;
   font-size: 30px;
 }
-/* Navigation Bar */
-.navbar {
-width: 75%;
-background-color: #03a3df;
-position: relative;
-overflow: none;
-}
 
-/* Navbar links */
-.navbar a {
-float: left;
-text-align: center;
-padding: 5px;
-color: white;
-text-decoration: none;
-font-family: Arial Regular, sans-serif;
-font-size: 17px;
-}
-
-/* Navbar links on mouse-over */
-.navbar a:hover {
-background-color: #1b447f;
-}
-
-/* Current/active navbar link */
-.active {
-background-color: #ecb722;
-}
 .services {
 display: block;
 }
@@ -212,4 +184,52 @@ li {
 .img-logo {
   background-color: #03a3df;
   float: left
+}
+/* Navigation Bar */
+.navbar {
+width: 100%;
+background-color: #1b447f;
+position: relative;
+overflow: hidden;
+}
+
+/* Navbar links */
+.navbar a {
+display: block;
+float: left;
+text-align: center;
+padding: 5px;
+color: #ffffff;
+text-decoration: none;
+font-family: Arial Regular, sans-serif;
+font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+background-color: #ecb722;
+color: #1b447f;
+}
+
+/* Current/active navbar link */
+.active {
+background-color: #03a3df;
+}
+
+/* footer */
+.container {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  font: Arial bold, sans-serif;
+  font-size: 17px;
+
+}
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  bottom: 25%;
+
 }
