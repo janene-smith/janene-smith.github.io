@@ -23,7 +23,7 @@ input[type=password]:focus {
 }
 
 input {
-  border-radius: solid 15px;
+  border-radius: 15px;
 }
 fieldset {
   border: 1px;
@@ -101,7 +101,7 @@ legend {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-/* try border-radius for radio button customization*/
+/* try border-radius for radio button customization */
 
 /* Navigation Bar */
 .navbar {

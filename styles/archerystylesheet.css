@@ -9,7 +9,6 @@ body {
 .item0 {
   grid-area: myL;
   float: left;
-  align: left;
 }
 .item1 {
   grid-area: myA;
@@ -55,7 +54,7 @@ body {
 .grid-container > div {
   /* background-color: rgba(255, 255, 255, 0.8);*/
   text-align: center;
-  pading: 20px 0;
+  padding: 20px 0;
   font-size: 30px;
 }
 
@@ -82,11 +81,9 @@ color: #ffffff;
 background: #03a3df;
 font-family: Arial Bold, sans-serif;
 text-align: left;
-margin: 1;
-box-sizing: container;
+margin: 1px;
 width: 400px;
 padding: 0;
-position:
 }
 
 /* TYPOGRAPHY */
@@ -122,7 +119,6 @@ p {
 .class-desc {
   font: Arial normal, sans-serif;
   font-size: 17px;
-  align: left;
   color: #444444;
 }
 .class-desc h2 h4 {
