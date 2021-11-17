@@ -1,5 +1,5 @@
 button, input, select, textarea {
-  font-family: Arial, sans-serif;
+  font-family: inherit;
   font-size: 100%;
   box-sizing: border-box;
   display: block;
@@ -23,7 +23,7 @@ input[type=password]:focus {
 }
 
 input {
-  border-radius: 15px;
+  border-width: thin;
 }
 fieldset {
   border: 1px;
@@ -136,7 +136,7 @@ background-color: #03a3df;
 /* footer */
 .container {
   position: relative;
-  text-align: center;
+  text-align: left;
   color: #ffffff;
   font: Arial bold, sans-serif;
   font-size: 17px;

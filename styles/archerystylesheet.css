@@ -220,7 +220,7 @@ background-color: #03a3df;
 /* footer */
 .container {
   position: relative;
-  text-align: center;
+  text-align: left;
   color: #ffffff;
   font: Arial bold, sans-serif;
   font-size: 17px;
