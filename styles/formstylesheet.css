@@ -140,7 +140,7 @@ background-color: #444444;
   position: relative;
   text-align: left;
   color: #ffffff;
-  font: sans-serif;
+  font-family: sans-serif;
   font-size: 17px;
 }
 /* Bottom left text */
