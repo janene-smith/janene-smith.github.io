@@ -41,8 +41,12 @@ body {
   padding: 0;
   font-family: sans-serif;
   font-weight: lighter;
-  font-size: 12px;
+  font-size: 17px;
 }
+.sidenav a:hover {
+  text-decoration: underline;
+}
+
 details > summary {
   padding: 4px;
   width: 200px;
@@ -65,10 +69,9 @@ figure {
   margin: inherit;
 }
 figcaption {
-  background-color: lightblue;
   width: 30%;
   color: #4a4e51;
-  font-size: 14px;
+  font-size: 17px;
   font-style: italic;
   padding: 1px;
   text-align: left;
@@ -144,19 +147,21 @@ ul, li {
 }
 aside ul li:nth-child(2n)  {
   color: #25b4d2;
-}
-/* Section hyperlinks */
-section a {
-  text-decoration: none;
-  color: #4a4e51;
   font-weight: bold;
 }
-section a:visited {
+/* Section hyperlinks */
+.links a {
+  text-decoration: none;
   color: #25b4d2;
+  font-weight: bold;
 }
-section a:hover {
+.links a:visited {
+  color: #4a4e51;
+}
+.links a:hover {
   text-decoration: underline;
 }
+
 /* Navigation Bar */
 .navbar {
   width: 100%;
