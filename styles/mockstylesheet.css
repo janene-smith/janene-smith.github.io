@@ -43,11 +43,14 @@ h2 {
   font-weight:bold;
   font-size: 1.2rem;
 }
-.topnav :active {
-  color: #25b4d2;
+/* Current/active navbar link */
+.active {
+  background-color: #1F99B2;
 }
 .topnav a:hover {
   background-color: #000;
+  text-decoration: underline;
+  color: #FFFFFF;
 }
 
 @media screen and (max-width: 500px) {
@@ -101,9 +104,11 @@ strong {
   font-size: 20px;
   font-family: sans-serif;
   color:#25b4d2;
+  font-weight: bold;
 }
 em {
   font-family: sans-serif;
+  font-weight: bold;
   font-style: normal;
   color:#25b4d2;
 }
@@ -152,7 +157,11 @@ p {
   padding: 0;
   font-family: sans-serif;
   font-weight: lighter;
-  font-size: 12px;
+  font-size: 17px;
+}
+.sidenav a:hover {
+  text-decoration: underline;
+  color: #25b4d2;
 }
 figure {
   border: 0;
