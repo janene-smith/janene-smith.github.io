@@ -2,10 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Registration Form</title>
+    <title>Archery Lessons Registration Form</title>
     <link rel="stylesheet" type="text/css" href="styles/formstylesheet.css">
   </head>
   <body>
+    <a href="maincontent">Skip to main content</a>
     <div class="grid-container">
       <div class="item0">
         <img src="images/archeryAcademy-logo-color.png" alt="Archery Academy logo in blue." width="137" height="57">
@@ -21,56 +22,64 @@
         </div>
       </div>
       </div>
-
+  <main id="maincontent">
     <h1>Registration Form</h1>
     <form method="GET">
-      <label>First name:
-      <input type="text" name="applicantFirstName">
-      </label>
-      <label>Last name:
-      <input type="text" name="applicantLastName">
-      </label>
-      <label>Last name:
-      <input type="text" name="applicantLastName">
-      </label>
-      <label>Street address:
-      <input type="address" name="applicantAddress">
-      </label>
-      <label>City:
-      <input type="city" name="applicantCity" placeholder="Seattle">
-      </label>
-      <label>State:
-        <select name="state">
-          <option value="">Please select</option>
-          <option value="wa">Washington</option>
-          <option value="or">Oregon</option>
-          <option value="id">Idaho</option>
-        </select>
-      </label>
-      <label>Zip:
-      <input type="zip" name="applicantZipcode">
-      </label>
+        <legend>Archer's Contact Information:</legend>
+          <label>First name:
+            <input type="text" name="applicantFirstName">
+          </label>
+          <label>Last name:
+            <input type="text" name="applicantLastName">
+          </label>
+          <label>Parent/Guardian name:
+            <input type="text" name="applicantGuardianName">
+          </label>
+          <label>Street address:
+            <input type="address" name="applicantAddress">
+          </label>
+          <label>City:
+            <input type="city" name="applicantCity" placeholder="Seattle">
+          </label>
+          <label>State:
+            <select name="state">
+              <option value="">Please select</option>
+              <option value="wa">Washington</option>
+              <option value="or">Oregon</option>
+              <option value="id">Idaho</option>
+            </select>
+          </label>
+          <label>Zip:
+            <input type="zip" name="applicantZipcode">
+          </label>
+          <label>Contact number:
+            <input type="cellphone" name="applicantPhone">
+          </label>
+          <label>Emergency contact:
+            <input type="text" name="applicantEmergencyContact">
+          </label>
+          <label>Emergency contacts number:
+            <input type="cellphone" name="applicantEmergencyPhone">
+          </label>
 
-      <label>Contact number:
-      <input type="cellphone" name="applicantPhone">
-      </label>
+          <fieldset>
+            <label>Tell us about your experience with archery:
+              <textarea name="applicantReason" rows="4" cols="50"></textarea>
+            </label>
+          </fieldset>
+          
+      <fieldset>
+        <legend>Is the age of the archer 7 years or older:</legend>
+          <label>
+            <input type="radio" name="ageRequirement" value="yes">
+            Yes
+          </label>
 
-      <label>Tell us about your experience with archery:
-      <textarea name="applicantReason" rows="4" cols="50"></textarea>
-      </label>
-
-    <fieldset>
-      <legend>Is the age of the archer 7 years or older:</legend>
-        <label>
-          <input type="radio" name="ageRequirement" value="yes">
-          Yes
-        </label>
-
-        <label>
-          <input type="radio" name="ageRequirement" value="no">
-          No
-        </label>
-    </fieldset>
+          <label>
+            <input type="radio" name="ageRequirement" value="no">
+            No
+          </label>
+      </fieldset>
 
     <fieldset>
       <legend>Lesson Options:</legend>
@@ -123,6 +132,7 @@
 
     <input type="submit" value="Enroll Here">
 </form>
+</main>
     <footer class="container">
       <img src="images/footerImage.jpg" height="250" alt="Image of arrows">
 

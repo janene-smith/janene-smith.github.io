@@ -6,7 +6,7 @@ button, input, select, textarea {
   margin: 1rem;
 }
 h1  {
-  font: Arial bold, sans-serif;
+  font-family: sans-serif;
   font-size: 40px;
   color: #1b447f;
 }
@@ -119,18 +119,20 @@ text-align: center;
 padding: 5px;
 color: #ffffff;
 text-decoration: none;
-font-family: Arial Regular, sans-serif;
+font-family: sans-serif;
 font-size: 17px;
 }
 
 /* Navbar links on mouse-over */
 .navbar a:hover {
 background-color: #ecb722;
+text-decoration: underline;
+font-weight: bold;
 color: #1b447f;
 }
 /* Current/active navbar link */
 .active {
-background-color: #03a3df;
+background-color: #444444;
 }
 
 /* footer */
@@ -138,7 +140,7 @@ background-color: #03a3df;
   position: relative;
   text-align: left;
   color: #ffffff;
-  font: Arial bold, sans-serif;
+  font: sans-serif;
   font-size: 17px;
 }
 /* Bottom left text */
@@ -164,5 +166,6 @@ details > p {
   padding: 4px;
   margin: 0;
   box-shadow: 1px 1px 2px #bbbbbb;
-  font-family: Roboto, sans-serif;
+  font-family: sans-serif;
+  font-weight: bold;
 }
